@@ -1,0 +1,50 @@
+
+html, body {
+    height: 99%;
+    width: 99%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sizeButton {
+    margin: 20px;
+}
+
+.boardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    max-height: 500px;
+    width: 500px;
+    max-width: 500px;
+}
+
+.container {
+    display: flex;
+    flex: 1 1 0;
+    background: green;
+}
+
+.on, .off {
+    flex: 1 1 0 ;
+    align-self: stretch;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.on {
+    background: red;
+}
+.off {
+    background: white;
+}
